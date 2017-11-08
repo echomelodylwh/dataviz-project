@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
+    <script src="https://unpkg.com/d3-area-label@1.2.0"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+    <title>Visualization Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<h2>CS573 Data Visualization Project '17Fall@WPI</h2>
+	<div class="introduction">
+	    <p>The data I propose to visualize for my project is New York City Leading Causes of Death, which contains 1094 rows and 7 columns. More information please visit <a href="https://github.com/echomelodylwh/dataviz-project">this project on Github.</a></p>
+        <p>1. Click a disease to see death rate details: <span id="disease">Cerebrovascular Disease</span>
+        </p>
+        <p>2. Select an index:</p>
+            <label class="radio-inline"><input checked="checked" id="DR" type="radio" name="optradio">Death Rate</label>
+            <label class="radio-inline"><input id="DRAA" type="radio" name="optradio">Death Rate (Age Adjusted)</label>
+	</div>
+	<div class="row">
+		<div class="col-4" id="stackedAreaChart"></div>
+		<div class="col-8" id="lineChart"></div>
+	</div>
+	<script src="./dist/bundle.js"></script>
+</body>
+</html>
