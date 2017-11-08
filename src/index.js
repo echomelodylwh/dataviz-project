@@ -242,13 +242,13 @@ function drawLineChart(path){
 function updateIndex(indexID){
     switch (indexID) {
         case "DR": drValue = "DR_"; break;
-        case "DRAA": drValue = "DRAA_"; break;
+        case "ND": drValue = "ND_"; break;
     }
     tsvPath = "./data/" + drValue + selDisease + ".tsv";
     drawLineChart(tsvPath);
 }
 
-var indexID = ["DR", "DRAA"];
+var indexID = ["DR", "ND"];
 
 indexID.forEach( function(item){
     document.getElementById(item).addEventListener("click", function(){
