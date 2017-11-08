@@ -59,7 +59,7 @@ Diabetes Mellitus
 ![image](https://github.com/echomelodylwh/dataviz-project/blob/master/Diabetes%20Mellitus.png)
 
 Chronic Lower Respiratory Diseases
-[image](https://github.com/echomelodylwh/dataviz-project/blob/master/Chronic%20Lower%20Respiratory%20Diseases.png)
+![image](https://github.com/echomelodylwh/dataviz-project/blob/master/Chronic%20Lower%20Respiratory%20Diseases.png)
 
 
 
