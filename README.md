@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This is WPI CS573 Data Visualization final project. There are several leading causes of death in New York City presented with details by using D3.js. The video about this project is here.
+This is WPI CS573 Data Visualization final project. There are several leading causes of death in New York City presented with details by using D3.js. The video about this project is [here](https://www.youtube.com/watch?v=NlzxE5QMq-c&feature=youtu.be).
 
 ## Project URL
 
